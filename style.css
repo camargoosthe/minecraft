@@ -1,0 +1,48 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-y: hidden;
+    background-color: rgb(8, 74, 13);
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    padding: 1em 3em;
+    color: rgb(43, 43, 226);
+    font: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em rgb(255, 255, 255);
+    background-color: rgb(43, 40, 193);
+    border: 0.25em solid  rgb(76, 48, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 1em  rgb(15, 39, 146),
+    0 0 4em 1em  rgb(35, 7, 192),
+    inset 0 0 0.75em 0.25em  rgb(0, 60, 255);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+ a:hover {
+    color: rgb(255, 255, 255);
+ }
+ button:hove{
+    color: black;
+    background-color:  rgb(13, 16, 224);
+    box-shadow: 0 0 1em 0.25em rgb(36, 2, 226),
+    0 0 4em 2em  rgb(21, 17, 217),
+    inset 0 0 0.75em 0.25em  rgb(8, 11, 182);;
+ }
+
+ button:active{
+    box-sizing: 0 0 0.6em 0.25em rgb(37, 7, 186),
+    0 0 2.5em 2em  rgb(5, 43, 181),
+    inset 0 0 0.5em 0.25em  rgb(38, 33, 180);;
+ }
